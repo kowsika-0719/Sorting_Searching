@@ -1,0 +1,121 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: flex-end;
+
+}
+
+.home, .stu{
+  color: #f4e9e9;
+  background-color: #770077;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+  
+}
+
+
+.navigation{
+  display:flex;
+  list-style: none;
+  gap :20px;
+  justify-self: flex-end;
+} 
+.box{
+  border: 1px solid black;
+  background-color: rgb(12, 62, 128);
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+  color: #f4e9e9;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+button{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  cursor: pointer;
+  color: rgb(8, 84, 84);
+  font-weight: bold;
+}
+
+table{
+  border: 1px solid black;
+  box-shadow: rgb(213, 223, 220) 5px 5px 5px;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: rgb(215, 222, 233);
+  font-size: medium;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+thead th,
+tbody td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #072651;
+  color: #e6d2d2;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+  color: #0f0e0e;
+}
+
+.Stu-list {
+  overflow-x: auto;
+  margin: 20px;
+  align-content: center;
+}
+
+.Topbar {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  margin: 20px;
+}
+
+.Topbar select,
+.Topbar input,
+.Topbar button {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.staff-card1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+} 
